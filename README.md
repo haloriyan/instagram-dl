@@ -10,3 +10,15 @@ and for one photo from a post :
 ```
 http://tools.riyansatria.tk/instagram/api.php?type=post&url=INSTAGRAM+POST+URL
 ```
+you will get this response :
+```
+{
+  "status": "200",
+  "description": "OK",
+  "image": "URL IMAGE",
+}
+``` 
+the image object will be array objects if your requesting `type=account`.
+
+### Note
+If you experienced a CORS Policy issue, try adding (https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related)[Allow-Control-Allow-Origin Extension] for your Chrome
