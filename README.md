@@ -21,4 +21,4 @@ you will get this response :
 the image object will be array objects if your requesting `type=account`.
 
 ### Note
-If you experienced a CORS Policy issue, try adding [Allow-Control-Allow-Origin: * extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related) to your Chrome
+If you experienced a CORS Policy problem, try adding [Allow-Control-Allow-Origin: * extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related) to your Chrome. Or download all cdn files to your local directory
